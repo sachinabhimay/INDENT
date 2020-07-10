@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_fav"
+        android:title="Favourite"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="More"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction = "always">
+        <menu>
+            <item
+                android:title="Settings"
+                android:id="@+id/settings"/>
+            <item
+                android:id="@+id/reset"
+                android:title="Reset"/>
+        </menu>
+    </item>
+
+
+</menu>
